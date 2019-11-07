@@ -12,16 +12,27 @@ struct ThreadView: View {
     
     private var thread: Thread
     
+    @State var showingReplyView = false
+    
     init(thread: Thread) {
         self.thread = thread
     }
     
     var body: some View {
-        List(thread.posts) { (post) in
-            NavigationLink(destination: AccountDetailsView()) {
-                ThreadRowView(post: post)
+        VStack(alignment: .center, spacing: nil) {
+            List(thread.posts) { (post) in
+                NavigationLink(destination: AccountDetailsView()) {
+                    ThreadRowView(post: post)
+                }
+            }.navigationBarTitle(thread.title)
+            .sheet(isPresented: $showingReplyView) {
+                CreateThreadView()
             }
-        }.navigationBarTitle(thread.title)
+            Spacer()
+            NavigationLink(destination: CreateThreadView()) {
+                Text("Reply")
+            }.padding(30.0)
+        }
     }
 }
 
