@@ -107,6 +107,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FC5B1CA62373C262009BA905 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				FCB3A3412372B842003D841D /* WelcomeView.swift */,
+				FC5B1C9E2373A598009BA905 /* LoginView.swift */,
+				FC5B19A6237395EB009BA905 /* SignUpView.swift */,
+				FC5B1CA02373B33F009BA905 /* PinEntryView.swift */,
+				FC5B1CA42373C0D3009BA905 /* AccountDetailsView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
 		FCB3A2FA23729F48003D841D = {
 			isa = PBXGroup;
 			children = (
@@ -134,11 +146,7 @@
 				FCB3A30723729F48003D841D /* Adapt.h */,
 				FCB3A30823729F48003D841D /* Info.plist */,
 				FCB3A3382372ADAB003D841D /* AdaptLib.swift */,
-				FCB3A3412372B842003D841D /* WelcomeView.swift */,
-				FC5B1C9E2373A598009BA905 /* LoginView.swift */,
-				FC5B19A6237395EB009BA905 /* SignUpView.swift */,
-				FC5B1CA02373B33F009BA905 /* PinEntryView.swift */,
-				FC5B1CA42373C0D3009BA905 /* AccountDetailsView.swift */,
+				FC5B1CA62373C262009BA905 /* Onboarding */,
 			);
 			path = Adapt;
 			sourceTree = "<group>";
