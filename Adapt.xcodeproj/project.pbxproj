@@ -10,6 +10,7 @@
 		FC5B19A7237395EB009BA905 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5B19A6237395EB009BA905 /* SignUpView.swift */; };
 		FC5B1C9F2373A598009BA905 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5B1C9E2373A598009BA905 /* LoginView.swift */; };
 		FC5B1CA12373B33F009BA905 /* PinEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5B1CA02373B33F009BA905 /* PinEntryView.swift */; };
+		FC5B1CA52373C0D3009BA905 /* AccountDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5B1CA42373C0D3009BA905 /* AccountDetailsView.swift */; };
 		FCB3A30E23729F48003D841D /* Adapt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB3A30423729F48003D841D /* Adapt.framework */; };
 		FCB3A31323729F48003D841D /* AdaptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB3A31223729F48003D841D /* AdaptTests.swift */; };
 		FCB3A31523729F48003D841D /* Adapt.h in Headers */ = {isa = PBXBuildFile; fileRef = FCB3A30723729F48003D841D /* Adapt.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -60,6 +61,7 @@
 		FC5B19A6237395EB009BA905 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		FC5B1C9E2373A598009BA905 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		FC5B1CA02373B33F009BA905 /* PinEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinEntryView.swift; sourceTree = "<group>"; };
+		FC5B1CA42373C0D3009BA905 /* AccountDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailsView.swift; sourceTree = "<group>"; };
 		FCB3A30423729F48003D841D /* Adapt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Adapt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCB3A30723729F48003D841D /* Adapt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Adapt.h; sourceTree = "<group>"; };
 		FCB3A30823729F48003D841D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				FC5B1C9E2373A598009BA905 /* LoginView.swift */,
 				FC5B19A6237395EB009BA905 /* SignUpView.swift */,
 				FC5B1CA02373B33F009BA905 /* PinEntryView.swift */,
+				FC5B1CA42373C0D3009BA905 /* AccountDetailsView.swift */,
 			);
 			path = Adapt;
 			sourceTree = "<group>";
@@ -326,6 +329,7 @@
 				FC5B1C9F2373A598009BA905 /* LoginView.swift in Sources */,
 				FC5B1CA12373B33F009BA905 /* PinEntryView.swift in Sources */,
 				FCB3A3422372B842003D841D /* WelcomeView.swift in Sources */,
+				FC5B1CA52373C0D3009BA905 /* AccountDetailsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

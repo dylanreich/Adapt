@@ -1,5 +1,5 @@
 //
-//  PinEntryView.swift
+//  AccountDetailsView.swift
 //  Adapt
 //
 //  Created by Dylan Reich on 11/6/19.
@@ -8,20 +8,17 @@
 
 import SwiftUI
 
-struct PinEntryView: View {
-    private var phone: String = ""
-    @State private var code: String = ""
-    
-    init(phone: String) {
-        self.phone = phone
-    }
+struct AccountDetailsView: View {
+    @State private var name: String = ""
+    @State private var age: String = ""
     
     var body: some View {
         VStack(alignment: .center, spacing: nil) {
-            Text("Enter Code").padding(100.0)
+            Text("Account Details").padding(100.0)
             VStack(alignment: .leading, spacing: 35) {
-                Text("Enter the code we sent to \(phone)")
-                TextField("Pin Code", text: $code).keyboardType(.numberPad)
+                TextField("Name", text: $name)
+                TextField("Age", text: $age).keyboardType(.numberPad)
+                TextField("Bio", text: $name)
             }.padding(30.0)
             Spacer()
             NavigationLink(destination: AccountDetailsView()) {
@@ -31,8 +28,8 @@ struct PinEntryView: View {
     }
 }
 
-struct PinEntryView_Previews: PreviewProvider {
+struct AccountDetailsView_Previews: PreviewProvider {
     static var previews: some View {
-        PinEntryView(phone: "555-555-0123")
+        AccountDetailsView()
     }
 }
