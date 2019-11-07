@@ -21,7 +21,7 @@ struct AccountDetailsView: View {
                 TextField("Bio", text: $name)
             }.padding(30.0)
             Spacer()
-            NavigationLink(destination: AccountDetailsView()) {
+            NavigationLink(destination: MainThreadsView()) {
                 Text("Continue")
             }.padding(60.0)
         }

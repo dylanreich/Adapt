@@ -11,6 +11,9 @@
 		FC5B1C9F2373A598009BA905 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5B1C9E2373A598009BA905 /* LoginView.swift */; };
 		FC5B1CA12373B33F009BA905 /* PinEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5B1CA02373B33F009BA905 /* PinEntryView.swift */; };
 		FC5B1CA52373C0D3009BA905 /* AccountDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5B1CA42373C0D3009BA905 /* AccountDetailsView.swift */; };
+		FC5B1CA92373C3E2009BA905 /* MainThreadsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5B1CA82373C3E2009BA905 /* MainThreadsView.swift */; };
+		FC5B1CAC2373CF99009BA905 /* ThreadListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5B1CAB2373CF99009BA905 /* ThreadListRowView.swift */; };
+		FC5B1CAF2373D049009BA905 /* Thread.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5B1CAE2373D049009BA905 /* Thread.swift */; };
 		FCB3A30E23729F48003D841D /* Adapt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB3A30423729F48003D841D /* Adapt.framework */; };
 		FCB3A31323729F48003D841D /* AdaptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB3A31223729F48003D841D /* AdaptTests.swift */; };
 		FCB3A31523729F48003D841D /* Adapt.h in Headers */ = {isa = PBXBuildFile; fileRef = FCB3A30723729F48003D841D /* Adapt.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -62,6 +65,9 @@
 		FC5B1C9E2373A598009BA905 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		FC5B1CA02373B33F009BA905 /* PinEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinEntryView.swift; sourceTree = "<group>"; };
 		FC5B1CA42373C0D3009BA905 /* AccountDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailsView.swift; sourceTree = "<group>"; };
+		FC5B1CA82373C3E2009BA905 /* MainThreadsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainThreadsView.swift; sourceTree = "<group>"; };
+		FC5B1CAB2373CF99009BA905 /* ThreadListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadListRowView.swift; sourceTree = "<group>"; };
+		FC5B1CAE2373D049009BA905 /* Thread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thread.swift; sourceTree = "<group>"; };
 		FCB3A30423729F48003D841D /* Adapt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Adapt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCB3A30723729F48003D841D /* Adapt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Adapt.h; sourceTree = "<group>"; };
 		FCB3A30823729F48003D841D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -119,12 +125,37 @@
 			path = Onboarding;
 			sourceTree = "<group>";
 		};
+		FC5B1CA72373C2CA009BA905 /* Forum */ = {
+			isa = PBXGroup;
+			children = (
+				FC5B1CA82373C3E2009BA905 /* MainThreadsView.swift */,
+				FC5B1CAB2373CF99009BA905 /* ThreadListRowView.swift */,
+			);
+			path = Forum;
+			sourceTree = "<group>";
+		};
+		FC5B1CAA2373CD2A009BA905 /* Sample Apps */ = {
+			isa = PBXGroup;
+			children = (
+				FCB3A32323729F78003D841D /* Theme Park Place */,
+			);
+			path = "Sample Apps";
+			sourceTree = "<group>";
+		};
+		FC5B1CAD2373D03D009BA905 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FC5B1CAE2373D049009BA905 /* Thread.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		FCB3A2FA23729F48003D841D = {
 			isa = PBXGroup;
 			children = (
 				FCB3A30623729F48003D841D /* Adapt */,
 				FCB3A31123729F48003D841D /* AdaptTests */,
-				FCB3A32323729F78003D841D /* Theme Park Place */,
+				FC5B1CAA2373CD2A009BA905 /* Sample Apps */,
 				FCB3A30523729F48003D841D /* Products */,
 				FCB3A33B2372B11A003D841D /* Frameworks */,
 			);
@@ -146,7 +177,9 @@
 				FCB3A30723729F48003D841D /* Adapt.h */,
 				FCB3A30823729F48003D841D /* Info.plist */,
 				FCB3A3382372ADAB003D841D /* AdaptLib.swift */,
+				FC5B1CAD2373D03D009BA905 /* Models */,
 				FC5B1CA62373C262009BA905 /* Onboarding */,
+				FC5B1CA72373C2CA009BA905 /* Forum */,
 			);
 			path = Adapt;
 			sourceTree = "<group>";
@@ -333,10 +366,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCB3A3392372ADAB003D841D /* AdaptLib.swift in Sources */,
+				FC5B1CAC2373CF99009BA905 /* ThreadListRowView.swift in Sources */,
+				FC5B1CA92373C3E2009BA905 /* MainThreadsView.swift in Sources */,
 				FC5B19A7237395EB009BA905 /* SignUpView.swift in Sources */,
 				FC5B1C9F2373A598009BA905 /* LoginView.swift in Sources */,
 				FC5B1CA12373B33F009BA905 /* PinEntryView.swift in Sources */,
 				FCB3A3422372B842003D841D /* WelcomeView.swift in Sources */,
+				FC5B1CAF2373D049009BA905 /* Thread.swift in Sources */,
 				FC5B1CA52373C0D3009BA905 /* AccountDetailsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -596,16 +632,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Theme Park Place/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Sample Apps/Theme Park Place/Preview Content\"";
 				DEVELOPMENT_TEAM = YLNEFKF4Y8;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Theme Park Place/Info.plist";
+				INFOPLIST_FILE = "Sample Apps/Theme Park Place/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dylanreich.Theme-Park-Place";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -616,16 +653,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Theme Park Place/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Sample Apps/Theme Park Place/Preview Content\"";
 				DEVELOPMENT_TEAM = YLNEFKF4Y8;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Theme Park Place/Info.plist";
+				INFOPLIST_FILE = "Sample Apps/Theme Park Place/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dylanreich.Theme-Park-Place";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
