@@ -21,6 +21,6 @@ struct ThreadListRowView: View {
 
 struct ThreadListRowView_Previews: PreviewProvider {
     static var previews: some View {
-        ThreadListRowView(thread: Thread(id: -1, title: "Main Thread", subtitle: "Main Thread Description"))
+        ThreadListRowView(thread: Thread(id: -1, title: "Main Thread", subtitle: "Main Thread Description", posts: [Post(id: -1, headline: "Check This Out", message: "I got this new lambo and it was fire bro! But what I really want is that flying Tesla."), Post(id: -2, headline: "Check This Out", message: "I don't like combustion vehicles.")]))
     }
 }

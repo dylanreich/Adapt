@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct MainThreadsView: View {
-    @State private var threads: [Thread] = [Thread(id: -1, title: "Main Thread", subtitle: "Main Thread Description")]
+    @State private var threads: [Thread] = [Thread(id: -1, title: "Thread Name", subtitle: "Thread Description", posts: [])]
     
     @State var showingAccount = false
     @State var showingCreateThread = false

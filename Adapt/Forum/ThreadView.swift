@@ -9,7 +9,6 @@
 import SwiftUI
 
 struct ThreadView: View {
-    @State private var threads: [Thread] = []
     
     private var thread: Thread
     
@@ -18,16 +17,18 @@ struct ThreadView: View {
     }
     
     var body: some View {
-        List(threads) { (thread) in
+        List(thread.posts) { (post) in
             NavigationLink(destination: AccountDetailsView()) {
-                ThreadListRowView(thread: thread)
+                ThreadRowView(post: post)
             }
-            }.navigationBarTitle("Thread")
+        }.navigationBarTitle(thread.title)
     }
 }
 
 struct ThreadView_Previews: PreviewProvider {
     static var previews: some View {
-        ThreadView(thread: Thread(id: -1, title: "Main Thread", subtitle: "Main Thread Description"))
+        NavigationView {
+            ThreadView(thread: Thread(id: -1, title: "New Cars", subtitle: "Thread Description", posts: [Post(id: -1, headline: "Check This Out", message: "I got this new lambo and it was fire bro! But what I really want is that flying Tesla."), Post(id: -2, headline: "Check This Out", message: "I don't like combustion vehicles.")]))
+        }
     }
 }

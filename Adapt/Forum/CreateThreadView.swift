@@ -29,7 +29,7 @@ struct CreateThreadView: View {
     }
     
     func createThread() {
-        let thread = Thread(id: nil, title: title, subtitle: message)
+        let thread = Thread(id: nil, title: title, subtitle: message, posts: [])
         API.sharedInstance.createThread(thread: thread) { (success, thread, error) in
             guard error == nil else {
                 print(error!)

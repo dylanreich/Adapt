@@ -17,6 +17,8 @@
 		FC5B1CB12373E7A4009BA905 /* ThreadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5B1CB02373E7A4009BA905 /* ThreadView.swift */; };
 		FC5B1CB32373EDB4009BA905 /* CreateThreadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5B1CB22373EDB4009BA905 /* CreateThreadView.swift */; };
 		FC5B1CB72373F429009BA905 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5B1CB62373F429009BA905 /* API.swift */; };
+		FC9870F2237422710098CEAA /* ThreadRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9870F1237422710098CEAA /* ThreadRowView.swift */; };
+		FC9870F4237422CA0098CEAA /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9870F3237422CA0098CEAA /* Post.swift */; };
 		FCB3A30E23729F48003D841D /* Adapt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB3A30423729F48003D841D /* Adapt.framework */; };
 		FCB3A31323729F48003D841D /* AdaptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB3A31223729F48003D841D /* AdaptTests.swift */; };
 		FCB3A31523729F48003D841D /* Adapt.h in Headers */ = {isa = PBXBuildFile; fileRef = FCB3A30723729F48003D841D /* Adapt.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -74,6 +76,8 @@
 		FC5B1CB02373E7A4009BA905 /* ThreadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadView.swift; sourceTree = "<group>"; };
 		FC5B1CB22373EDB4009BA905 /* CreateThreadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateThreadView.swift; sourceTree = "<group>"; };
 		FC5B1CB62373F429009BA905 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		FC9870F1237422710098CEAA /* ThreadRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadRowView.swift; sourceTree = "<group>"; };
+		FC9870F3237422CA0098CEAA /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		FCB3A30423729F48003D841D /* Adapt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Adapt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCB3A30723729F48003D841D /* Adapt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Adapt.h; sourceTree = "<group>"; };
 		FCB3A30823729F48003D841D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -138,6 +142,7 @@
 				FC5B1CAB2373CF99009BA905 /* ThreadListRowView.swift */,
 				FC5B1CB22373EDB4009BA905 /* CreateThreadView.swift */,
 				FC5B1CB02373E7A4009BA905 /* ThreadView.swift */,
+				FC9870F1237422710098CEAA /* ThreadRowView.swift */,
 			);
 			path = Forum;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				FC5B1CAE2373D049009BA905 /* Thread.swift */,
+				FC9870F3237422CA0098CEAA /* Post.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -381,10 +387,12 @@
 				FC5B1C9F2373A598009BA905 /* LoginView.swift in Sources */,
 				FC5B1CA12373B33F009BA905 /* PinEntryView.swift in Sources */,
 				FC5B1CB32373EDB4009BA905 /* CreateThreadView.swift in Sources */,
+				FC9870F4237422CA0098CEAA /* Post.swift in Sources */,
 				FC5B1CB12373E7A4009BA905 /* ThreadView.swift in Sources */,
 				FCB3A3422372B842003D841D /* WelcomeView.swift in Sources */,
 				FC5B1CAF2373D049009BA905 /* Thread.swift in Sources */,
 				FC5B1CB72373F429009BA905 /* API.swift in Sources */,
+				FC9870F2237422710098CEAA /* ThreadRowView.swift in Sources */,
 				FC5B1CA52373C0D3009BA905 /* AccountDetailsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
