@@ -14,6 +14,9 @@
 		FC5B1CA92373C3E2009BA905 /* MainThreadsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5B1CA82373C3E2009BA905 /* MainThreadsView.swift */; };
 		FC5B1CAC2373CF99009BA905 /* ThreadListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5B1CAB2373CF99009BA905 /* ThreadListRowView.swift */; };
 		FC5B1CAF2373D049009BA905 /* Thread.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5B1CAE2373D049009BA905 /* Thread.swift */; };
+		FC5B1CB12373E7A4009BA905 /* ThreadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5B1CB02373E7A4009BA905 /* ThreadView.swift */; };
+		FC5B1CB32373EDB4009BA905 /* CreateThreadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5B1CB22373EDB4009BA905 /* CreateThreadView.swift */; };
+		FC5B1CB72373F429009BA905 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5B1CB62373F429009BA905 /* API.swift */; };
 		FCB3A30E23729F48003D841D /* Adapt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB3A30423729F48003D841D /* Adapt.framework */; };
 		FCB3A31323729F48003D841D /* AdaptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB3A31223729F48003D841D /* AdaptTests.swift */; };
 		FCB3A31523729F48003D841D /* Adapt.h in Headers */ = {isa = PBXBuildFile; fileRef = FCB3A30723729F48003D841D /* Adapt.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -68,6 +71,9 @@
 		FC5B1CA82373C3E2009BA905 /* MainThreadsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainThreadsView.swift; sourceTree = "<group>"; };
 		FC5B1CAB2373CF99009BA905 /* ThreadListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadListRowView.swift; sourceTree = "<group>"; };
 		FC5B1CAE2373D049009BA905 /* Thread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thread.swift; sourceTree = "<group>"; };
+		FC5B1CB02373E7A4009BA905 /* ThreadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadView.swift; sourceTree = "<group>"; };
+		FC5B1CB22373EDB4009BA905 /* CreateThreadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateThreadView.swift; sourceTree = "<group>"; };
+		FC5B1CB62373F429009BA905 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		FCB3A30423729F48003D841D /* Adapt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Adapt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCB3A30723729F48003D841D /* Adapt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Adapt.h; sourceTree = "<group>"; };
 		FCB3A30823729F48003D841D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -130,6 +136,8 @@
 			children = (
 				FC5B1CA82373C3E2009BA905 /* MainThreadsView.swift */,
 				FC5B1CAB2373CF99009BA905 /* ThreadListRowView.swift */,
+				FC5B1CB22373EDB4009BA905 /* CreateThreadView.swift */,
+				FC5B1CB02373E7A4009BA905 /* ThreadView.swift */,
 			);
 			path = Forum;
 			sourceTree = "<group>";
@@ -177,6 +185,7 @@
 				FCB3A30723729F48003D841D /* Adapt.h */,
 				FCB3A30823729F48003D841D /* Info.plist */,
 				FCB3A3382372ADAB003D841D /* AdaptLib.swift */,
+				FC5B1CB62373F429009BA905 /* API.swift */,
 				FC5B1CAD2373D03D009BA905 /* Models */,
 				FC5B1CA62373C262009BA905 /* Onboarding */,
 				FC5B1CA72373C2CA009BA905 /* Forum */,
@@ -371,8 +380,11 @@
 				FC5B19A7237395EB009BA905 /* SignUpView.swift in Sources */,
 				FC5B1C9F2373A598009BA905 /* LoginView.swift in Sources */,
 				FC5B1CA12373B33F009BA905 /* PinEntryView.swift in Sources */,
+				FC5B1CB32373EDB4009BA905 /* CreateThreadView.swift in Sources */,
+				FC5B1CB12373E7A4009BA905 /* ThreadView.swift in Sources */,
 				FCB3A3422372B842003D841D /* WelcomeView.swift in Sources */,
 				FC5B1CAF2373D049009BA905 /* Thread.swift in Sources */,
+				FC5B1CB72373F429009BA905 /* API.swift in Sources */,
 				FC5B1CA52373C0D3009BA905 /* AccountDetailsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

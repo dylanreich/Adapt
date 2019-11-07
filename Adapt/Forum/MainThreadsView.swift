@@ -9,21 +9,43 @@
 import SwiftUI
 
 struct MainThreadsView: View {
-    @State private var threads: [Thread] = []
+    @State private var threads: [Thread] = [Thread(id: -1, title: "Main Thread", subtitle: "Main Thread Description")]
     
-    var title: String = "Threads"
-    
+    @State var showingAccount = false
+    @State var showingCreateThread = false
+        
     var body: some View {
         List(threads) { (thread) in
-            NavigationLink(destination: AccountDetailsView()) {
+            NavigationLink(destination: ThreadView(thread: thread)) {
                 ThreadListRowView(thread: thread)
             }
-        }.navigationBarTitle("Threads")
+        }
+        .navigationBarTitle("Threads").navigationBarItems(leading: accountItem, trailing: createThreadItem)
+        .sheet(isPresented: $showingAccount) {
+                AccountDetailsView()
+            }
+        .sheet(isPresented: $showingCreateThread) {
+                CreateThreadView()
+            }
+    }
+    
+    var accountItem: some View {
+        Image(systemName: "person.crop.circle").font(.title).onTapGesture {
+            self.showingAccount = true
+        }
+    }
+    
+    var createThreadItem: some View {
+        Image(systemName: "plus").font(.title).onTapGesture {
+            self.showingCreateThread = true
+        }
     }
 }
 
 struct MainThreadsView_Previews: PreviewProvider {
     static var previews: some View {
-        MainThreadsView()
+        NavigationView {
+            MainThreadsView()
+        }
     }
 }

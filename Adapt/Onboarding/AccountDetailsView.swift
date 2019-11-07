@@ -11,6 +11,7 @@ import SwiftUI
 struct AccountDetailsView: View {
     @State private var name: String = ""
     @State private var age: String = ""
+    @State private var bio: String = ""
     
     var body: some View {
         VStack(alignment: .center, spacing: nil) {
@@ -18,7 +19,7 @@ struct AccountDetailsView: View {
             VStack(alignment: .leading, spacing: 35) {
                 TextField("Name", text: $name)
                 TextField("Age", text: $age).keyboardType(.numberPad)
-                TextField("Bio", text: $name)
+                TextField("Bio", text: $bio)
             }.padding(30.0)
             Spacer()
             NavigationLink(destination: MainThreadsView()) {
