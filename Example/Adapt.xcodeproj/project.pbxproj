@@ -3,14 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		26B1558C0ACBCC1F27805524 /* Pods_Adapt_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7CC959F591428A369518674 /* Pods_Adapt_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		B9AE489B3DD942B51E2DFC5A /* Pods_Theme_Park_Chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B05B8BBA64AAD04963F57B9C /* Pods_Theme_Park_Chat.framework */; };
 		E3A4F34E7736B9E23EA62CB7 /* Pods_Adapt_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B654FE3E76FD1CD01DF4BD /* Pods_Adapt_Tests.framework */; };
 		FCB82556237D535F00AAF159 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB82555237D535F00AAF159 /* SceneDelegate.swift */; };
 		FCEB549D237D595A00E6DECC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCEB549C237D595A00E6DECC /* LaunchScreen.storyboard */; };
@@ -27,8 +27,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		087A89C29A96BB48558B36CE /* Pods-Theme Park Chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Theme Park Chat.release.xcconfig"; path = "Target Support Files/Pods-Theme Park Chat/Pods-Theme Park Chat.release.xcconfig"; sourceTree = "<group>"; };
 		1869FDD9AC891169F15B82C3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		607FACD01AFB9204008FA782 /* Theme Park Place.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Theme Park Place.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACD01AFB9204008FA782 /* Theme Park Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Theme Park Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -41,8 +42,9 @@
 		81873EF2BF760B6B638329E7 /* Pods-Adapt_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adapt_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Adapt_Tests/Pods-Adapt_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A29C93E77AC0E71A81768EDE /* Pods-Adapt_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adapt_Example.release.xcconfig"; path = "Target Support Files/Pods-Adapt_Example/Pods-Adapt_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A6B654FE3E76FD1CD01DF4BD /* Pods_Adapt_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Adapt_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B05B8BBA64AAD04963F57B9C /* Pods_Theme_Park_Chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Theme_Park_Chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6D0416F592FD9B8F850AE2C /* Pods-Adapt_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adapt_Example.debug.xcconfig"; path = "Target Support Files/Pods-Adapt_Example/Pods-Adapt_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F7CC959F591428A369518674 /* Pods_Adapt_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Adapt_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD80DA04EDE6E3DC58B82036 /* Pods-Theme Park Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Theme Park Chat.debug.xcconfig"; path = "Target Support Files/Pods-Theme Park Chat/Pods-Theme Park Chat.debug.xcconfig"; sourceTree = "<group>"; };
 		FCB82555237D535F00AAF159 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FCEB549C237D595A00E6DECC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26B1558C0ACBCC1F27805524 /* Pods_Adapt_Example.framework in Frameworks */,
+				B9AE489B3DD942B51E2DFC5A /* Pods_Theme_Park_Chat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +76,8 @@
 				A29C93E77AC0E71A81768EDE /* Pods-Adapt_Example.release.xcconfig */,
 				81873EF2BF760B6B638329E7 /* Pods-Adapt_Tests.debug.xcconfig */,
 				7AD459B559597A0A1A9EEF90 /* Pods-Adapt_Tests.release.xcconfig */,
+				DD80DA04EDE6E3DC58B82036 /* Pods-Theme Park Chat.debug.xcconfig */,
+				087A89C29A96BB48558B36CE /* Pods-Theme Park Chat.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -93,7 +97,7 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD01AFB9204008FA782 /* Theme Park Place.app */,
+				607FACD01AFB9204008FA782 /* Theme Park Chat.app */,
 				607FACE51AFB9204008FA782 /* Adapt_Tests.xctest */,
 			);
 			name = Products;
@@ -102,7 +106,7 @@
 		607FACD21AFB9204008FA782 /* Sample Apps */ = {
 			isa = PBXGroup;
 			children = (
-				FCEB549F237D5FB800E6DECC /* Theme Park Place */,
+				FCEB549F237D5FB800E6DECC /* Theme Park Chat */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				FCB82555237D535F00AAF159 /* SceneDelegate.swift */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
@@ -151,25 +155,25 @@
 		A6BA38ED65C925C4FCFD1903 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F7CC959F591428A369518674 /* Pods_Adapt_Example.framework */,
 				A6B654FE3E76FD1CD01DF4BD /* Pods_Adapt_Tests.framework */,
+				B05B8BBA64AAD04963F57B9C /* Pods_Theme_Park_Chat.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FCEB549F237D5FB800E6DECC /* Theme Park Place */ = {
+		FCEB549F237D5FB800E6DECC /* Theme Park Chat */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "Theme Park Place";
+			path = "Theme Park Chat";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		607FACCF1AFB9204008FA782 /* Theme Park Place */ = {
+		607FACCF1AFB9204008FA782 /* Theme Park Chat */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "Theme Park Place" */;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "Theme Park Chat" */;
 			buildPhases = (
 				2BB52C8A71FB5D984C915820 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
@@ -181,9 +185,9 @@
 			);
 			dependencies = (
 			);
-			name = "Theme Park Place";
+			name = "Theme Park Chat";
 			productName = Adapt;
-			productReference = 607FACD01AFB9204008FA782 /* Theme Park Place.app */;
+			productReference = 607FACD01AFB9204008FA782 /* Theme Park Chat.app */;
 			productType = "com.apple.product-type.application";
 		};
 		607FACE41AFB9204008FA782 /* Adapt_Tests */ = {
@@ -227,7 +231,7 @@
 				};
 			};
 			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "Adapt" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -240,7 +244,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607FACCF1AFB9204008FA782 /* Theme Park Place */,
+				607FACCF1AFB9204008FA782 /* Theme Park Chat */,
 				607FACE41AFB9204008FA782 /* Adapt_Tests */,
 			);
 		};
@@ -281,7 +285,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Adapt_Example-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Theme Park Chat-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -293,19 +297,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Adapt_Example/Pods-Adapt_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Adapt/Adapt.framework",
-				"${BUILT_PRODUCTS_DIR}/Disk/Disk.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Theme Park Chat/Pods-Theme Park Chat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Adapt.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Disk.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Theme Park Chat/Pods-Theme Park Chat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Adapt_Example/Pods-Adapt_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Theme Park Chat/Pods-Theme Park Chat-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9C54F64C019FBADA13ACC595 /* [CP] Check Pods Manifest.lock */ = {
@@ -355,7 +356,7 @@
 /* Begin PBXTargetDependency section */
 		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* Theme Park Place */;
+			target = 607FACCF1AFB9204008FA782 /* Theme Park Chat */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -461,18 +462,22 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C6D0416F592FD9B8F850AE2C /* Pods-Adapt_Example.debug.xcconfig */;
+			baseConfigurationReference = DD80DA04EDE6E3DC58B82036 /* Pods-Theme Park Chat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Adapt/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -483,11 +488,14 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A29C93E77AC0E71A81768EDE /* Pods-Adapt_Example.release.xcconfig */;
+			baseConfigurationReference = 087A89C29A96BB48558B36CE /* Pods-Theme Park Chat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Adapt/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -509,7 +517,11 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -527,7 +539,11 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -548,7 +564,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "Theme Park Place" */ = {
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "Theme Park Chat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,

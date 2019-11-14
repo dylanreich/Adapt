@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_Adapt_ExampleVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_Adapt_ExampleVersionString[];
+FOUNDATION_EXPORT double Pods_Theme_Park_ChatVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_Theme_Park_ChatVersionString[];
 

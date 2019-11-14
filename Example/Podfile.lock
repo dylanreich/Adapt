@@ -1,5 +1,5 @@
 PODS:
-  - Adapt (0.0.1):
+  - Adapt (0.0.2):
     - Disk (~> 0.6.4)
   - Disk (0.6.4)
 
@@ -15,9 +15,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Adapt: 0fa7a3a9873783ba75fa29e0de892bd03de41151
+  Adapt: f82bf29d6c7756275c7203042ba1a0a2ea22f4f7
   Disk: dcee5c2e98fb72f9a924cde8da8435b08244a80e
 
-PODFILE CHECKSUM: a2a01f8f6334943c0477930c3a47edbdc72c4d6a
+PODFILE CHECKSUM: cc4eebc87b1bc258fc3469dce0c97908c674b16e
 
 COCOAPODS: 1.8.3

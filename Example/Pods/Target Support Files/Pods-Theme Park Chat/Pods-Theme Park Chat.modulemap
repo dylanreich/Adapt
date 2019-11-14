@@ -1,0 +1,6 @@
+framework module Pods_Theme_Park_Chat {
+  umbrella header "Pods-Theme Park Chat-umbrella.h"
+
+  export *
+  module * { export * }
+}
