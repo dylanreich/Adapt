@@ -1,0 +1,23 @@
+PODS:
+  - Adapt (0.0.1):
+    - Disk (~> 0.6.4)
+  - Disk (0.6.4)
+
+DEPENDENCIES:
+  - Adapt (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Disk
+
+EXTERNAL SOURCES:
+  Adapt:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Adapt: 0fa7a3a9873783ba75fa29e0de892bd03de41151
+  Disk: dcee5c2e98fb72f9a924cde8da8435b08244a80e
+
+PODFILE CHECKSUM: a2a01f8f6334943c0477930c3a47edbdc72c4d6a
+
+COCOAPODS: 1.8.3

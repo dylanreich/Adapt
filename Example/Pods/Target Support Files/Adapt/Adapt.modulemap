@@ -1,0 +1,6 @@
+framework module Adapt {
+  umbrella header "Adapt-umbrella.h"
+
+  export *
+  module * { export * }
+}
