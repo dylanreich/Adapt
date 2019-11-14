@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-               BuildableName = "Adapt_Example.app"
-               BlueprintName = "Adapt_Example"
+               BuildableName = "Theme Park Place.app"
+               BlueprintName = "Theme Park Place"
                ReferencedContainer = "container:Adapt.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,8 +45,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "Adapt_Example.app"
-            BlueprintName = "Adapt_Example"
+            BuildableName = "Theme Park Place.app"
+            BlueprintName = "Theme Park Place"
             ReferencedContainer = "container:Adapt.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -78,8 +78,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "Adapt_Example.app"
-            BlueprintName = "Adapt_Example"
+            BuildableName = "Theme Park Place.app"
+            BlueprintName = "Theme Park Place"
             ReferencedContainer = "container:Adapt.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -95,8 +95,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "Adapt_Example.app"
-            BlueprintName = "Adapt_Example"
+            BuildableName = "Theme Park Place.app"
+            BlueprintName = "Theme Park Place"
             ReferencedContainer = "container:Adapt.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
