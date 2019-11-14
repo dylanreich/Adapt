@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Adapt_Example' do
+  pod 'Adapt', :path => '../'
+
+  target 'Adapt_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
