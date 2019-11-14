@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Adapt
+import SwiftUI
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -14,6 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let videosView = VideosView()
+        let viewWrapper = ViewWrapper(view: AnyView(videosView))
+
+        AdaptLib.initalize(extraViewsForTab: [viewWrapper])
         return true
     }
 

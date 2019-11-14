@@ -14,6 +14,7 @@
 		E3A4F34E7736B9E23EA62CB7 /* Pods_Adapt_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B654FE3E76FD1CD01DF4BD /* Pods_Adapt_Tests.framework */; };
 		FCB82556237D535F00AAF159 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB82555237D535F00AAF159 /* SceneDelegate.swift */; };
 		FCEB549D237D595A00E6DECC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCEB549C237D595A00E6DECC /* LaunchScreen.storyboard */; };
+		FCEB54A3237DEF9C00E6DECC /* VideosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEB54A2237DEF9C00E6DECC /* VideosView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		DD80DA04EDE6E3DC58B82036 /* Pods-Theme Park Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Theme Park Chat.debug.xcconfig"; path = "Target Support Files/Pods-Theme Park Chat/Pods-Theme Park Chat.debug.xcconfig"; sourceTree = "<group>"; };
 		FCB82555237D535F00AAF159 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FCEB549C237D595A00E6DECC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCEB54A2237DEF9C00E6DECC /* VideosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VideosView.swift; path = "Theme Park Chat/VideosView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				FCEB549F237D5FB800E6DECC /* Theme Park Chat */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				FCB82555237D535F00AAF159 /* SceneDelegate.swift */,
+				FCEB54A2237DEF9C00E6DECC /* VideosView.swift */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				FCEB549C237D595A00E6DECC /* LaunchScreen.storyboard */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
@@ -340,6 +343,7 @@
 			files = (
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 				FCB82556237D535F00AAF159 /* SceneDelegate.swift in Sources */,
+				FCEB54A3237DEF9C00E6DECC /* VideosView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
