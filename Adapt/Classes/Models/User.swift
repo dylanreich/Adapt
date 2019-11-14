@@ -6,6 +6,8 @@
 //  Copyright © 2019 Dylan Reich. All rights reserved.
 //
 
+import SwiftUI
+
 public struct User: Codable, Identifiable {
     public var id: Int?
     public var name: String

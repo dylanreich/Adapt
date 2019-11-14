@@ -11,9 +11,25 @@ import SwiftUI
 
 public final class AdaptLib {
 
-    public static let sharedInstance = AdaptLib()
+    public static var sharedInstance: AdaptLib { //we do this so in case a user forgets to call initalize and tries to use the library, it will function normally
+        get {
+            if _sharedInstance == nil {
+                _sharedInstance = AdaptLib()
+            }
+            return _sharedInstance
+        }
+        set {
+            _sharedInstance = newValue
+        }
+    }
+    
+    static var _sharedInstance: AdaptLib!
     
     @Binding var userSettings: UserSettings
+    
+    static public var rootView: RootView {
+        return sharedInstance.rootView
+    }
         
     public var rootView: RootView!
     
@@ -21,9 +37,15 @@ public final class AdaptLib {
         return sharedInstance.userSettings.user
     }
     
-    init() {
+    init(extraViewsForTab: [ViewWrapper]? = nil) {
         self._userSettings = Binding.constant(UserSettings())
-        rootView = RootView(userSettings: userSettings)
+        rootView = RootView(userSettings: userSettings, extraViewsForTab: extraViewsForTab)
+    }
+    
+    
+    
+    static public func initalize(extraViewsForTab: [ViewWrapper]? = nil) {
+        sharedInstance = AdaptLib(extraViewsForTab: extraViewsForTab)
     }
     
     static public func signUp(user: User) {

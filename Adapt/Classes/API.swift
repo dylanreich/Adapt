@@ -66,7 +66,7 @@ class API: NSObject {
     }
     
     func createThread(thread: Thread, completionHandler: @escaping (Bool, Thread?, Error?) -> ()) {
-        var request = URLRequest(url: URL(string: API.serverUrl + "api/users/register")!)
+        var request = URLRequest(url: URL(string: API.serverUrl + "api/threads")!)
         request.httpMethod = "POST"
         //HTTP Headers
         request.addValue("application/json", forHTTPHeaderField: "Content-Type")

@@ -12,12 +12,20 @@ public struct RootView: View {
     
     @ObservedObject var userSettings: UserSettings
     
+    public var mainTabBarView: MainTabBarView!
+    public var welcomeView = WelcomeView()
+    
+    init(userSettings: UserSettings, extraViewsForTab: [ViewWrapper]? = nil) {
+        self.userSettings = userSettings
+        self.mainTabBarView = MainTabBarView(extraViewsForTab: extraViewsForTab)
+    }
+    
     public var body: some View {
         Group {
             if userSettings.user != nil {
-                MainTabBarView()
+                mainTabBarView
             } else {
-                WelcomeView()
+                welcomeView
             }
         }
     }
