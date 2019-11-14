@@ -82,7 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
-				607FACD21AFB9204008FA782 /* Example for Adapt */,
+				607FACD21AFB9204008FA782 /* Sample Apps */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				546EDB72CA774D5E6EE3B91B /* Pods */,
@@ -99,16 +99,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		607FACD21AFB9204008FA782 /* Example for Adapt */ = {
+		607FACD21AFB9204008FA782 /* Sample Apps */ = {
 			isa = PBXGroup;
 			children = (
+				FCEB549F237D5FB800E6DECC /* Theme Park Place */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				FCB82555237D535F00AAF159 /* SceneDelegate.swift */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				FCEB549C237D595A00E6DECC /* LaunchScreen.storyboard */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
-			name = "Example for Adapt";
+			name = "Sample Apps";
 			path = Adapt;
 			sourceTree = "<group>";
 		};
@@ -154,6 +155,13 @@
 				A6B654FE3E76FD1CD01DF4BD /* Pods_Adapt_Tests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCEB549F237D5FB800E6DECC /* Theme Park Place */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Theme Park Place";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
